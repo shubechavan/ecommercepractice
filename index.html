@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>online store</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    h1{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .quote{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    span{
+        color: purple;
+    }
+    .btn-danger{
+        background-color: black;
+    }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1><span>TechHaven</span> Laptops</h1>      
+    <p class="quote"> Your Gateway to Cutting-Edge Computing</p>
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Deals</a></li>
+        <li><a href="#">Stores</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="./image1.html"><div class="panel panel-primary">
+        <div class="panel-body"><img src="./images/th.jpeg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Samsung Galaxy Book2 360 Convertible Laptop</div>
+      </div></a>
+    </div>
+    <div class="col-sm-4"> 
+      <a href="./image2.html"><div class="panel panel-danger">
+        <div class="panel-body"><img src="./images/th (1).jpeg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Schneider Electric, Wiser Energy PowerTag, 63A, Energy Sensor, 10mW, Wireless, MPN: R9M60</div>
+      </div></a>
+    </div>
+    <div class="col-sm-4"> 
+      <a href="./image3.html"><div class="panel panel-success">
+        <div class="panel-body"><img src="./images/th (2).jpeg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">The Dell Latitude 9000 9420 is a powerful and versatile laptop that can be used as a tablet. It features an Intel EVO Core i7 processor, 16GB of RAM, and a QHD+ touchscreen display. With Windows 10 Pro pre-installed, this laptop is perfect for professionals who need to work on the go.</div>
+      </div></a>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="./image4.html"><div class="panel panel-primary">
+        <div class="panel-body"><img src="./images/th (3).jpeg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Lenovo IdeaPad Pro 5 Gen 9 is a professional laptop with AMD Ryzen processors, NVIDIA Studio-validated graphics and AI features that enable smooth collaboration & maximized efficiency.</div>
+      </div></a>
+    </div>
+    <div class="col-sm-4"> 
+      <a href="./image5.html"><div class="panel panel-primary">
+        <div class="panel-body"><img src="./images/th (4).jpeg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Lenovo ThinkBook 16 Gen 6 is a powerful business laptop with AMD Ryzen 7000 Series mobile processors, dual-SSD storage & massive memory options. It has an infrared camera for zero-touch login and military-grade durability testing. Ideal for data collection, creative work, & collaboration efforts.</div>
+      </div></a>
+    </div>
+    <div class="col-sm-4"> 
+      <a href="./image6.html"><div class="panel panel-primary">
+        <div class="panel-body"><img src="./images/th (5).jpeg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">The MSI Cyborg 15 AI is a powerful gaming laptop that comes with an Intel Core Ultra 7 processor, NVIDIA GeForce RTX 4050 graphics card and a massive 1TB NVMe SSD. It has a sleek translucent black design and weighs just under 2kg making
+            ...it perfect for gamers on the go.</div>
+        </div></a>
+      </div>
+    </div>
+  </div><br><br>
+  
+  <footer class="container-fluid text-center">
+    <p>TechHaven 2024</p>  
+    <form class="form-inline">Get deals:
+      <input type="email" class="form-control" size="50" placeholder="Email Address">
+      <button type="button" class="btn btn-danger"><p class="signup">Sign Up</p></button>
+    </form>
+  </footer>
+  
+  </body>
+  </html>
+  
